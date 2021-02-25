@@ -3,14 +3,14 @@
     'name': "custom_crm",
 
     'summary': """
-        Modulo creado por alumn@s del IES Villablanca""",
+        Modulo creado por Oscar del Amo Diezma""",
 
     'description': """
-        Módulo creado por alumn@s del IES Villablanca..
+        Módulo creado por Oscar del Amo Diezma.
     """,
 
-    'author': "DAM",
-    'website': "http://www.DAMVillablanca.com",
+    'author': "Oscar del Amo Diezma",
+    'website': "http://www.indytekservices.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -26,6 +26,7 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'reports/visit.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
